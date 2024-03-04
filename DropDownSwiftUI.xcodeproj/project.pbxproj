@@ -11,6 +11,7 @@
 		1925D8932B95359100F14788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D8922B95359100F14788 /* ContentView.swift */; };
 		1925D8952B95359400F14788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D8942B95359400F14788 /* Assets.xcassets */; };
 		1925D8992B95359400F14788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D8982B95359400F14788 /* Preview Assets.xcassets */; };
+		1925D8A22B9535BC00F14788 /* DropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D8A12B9535BC00F14788 /* DropDownView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1925D8942B95359400F14788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1925D8962B95359400F14788 /* DropDownSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DropDownSwiftUI.entitlements; sourceTree = "<group>"; };
 		1925D8982B95359400F14788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1925D8A12B9535BC00F14788 /* DropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 		1925D88F2B95359100F14788 /* DropDownSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				1925D8902B95359100F14788 /* DropDownSwiftUIApp.swift */,
+				1925D8A02B9535A600F14788 /* DropDown */,
+				1925D89F2B95359A00F14788 /* App */,
 				1925D8922B95359100F14788 /* ContentView.swift */,
 				1925D8942B95359400F14788 /* Assets.xcassets */,
 				1925D8962B95359400F14788 /* DropDownSwiftUI.entitlements */,
@@ -67,6 +70,22 @@
 				1925D8982B95359400F14788 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1925D89F2B95359A00F14788 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1925D8902B95359100F14788 /* DropDownSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1925D8A02B9535A600F14788 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				1925D8A12B9535BC00F14788 /* DropDownView.swift */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +160,7 @@
 			files = (
 				1925D8932B95359100F14788 /* ContentView.swift in Sources */,
 				1925D8912B95359100F14788 /* DropDownSwiftUIApp.swift in Sources */,
+				1925D8A22B9535BC00F14788 /* DropDownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
